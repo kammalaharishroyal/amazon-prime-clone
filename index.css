@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: black;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 160px;
+    padding-right: 100px;
+}
+header img{
+    width: 100px;
+    height: 20px;
+    margin-right: 50px;
+    margin-top: 5px;
+   
+}
+ul{
+   
+    display: inline;
+    margin-right:20px;
+}
+ul li{
+    display: inline;
+    margin-right: 40px;
+    color: #aaa;
+    font-size: large;
+    
+    
+}
+
+ul li:hover{
+    cursor: pointer;
+    
+}
+
+.content1{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient( to right, #000 40%, transparent 58% ), url(https://m.media-amazon.com/images/G/31/AmazonVideo/2019/MLP.jpg); 
+    background-position: top right;
+    color: white;
+}
+.content1 section{
+    padding-top: 60px;
+    padding-left: 30px;
+    font-size: 44.8;
+    width: 60%;
+}
+.content1 section h1{
+    margin-bottom: 30px;
+    font-size: 45px;
+}
+.content1 section p{
+    font-size: 30px;
+}
+.content1 section button,.content2 button,.content41 button{
+    background-color:#0F79AF;
+    padding:15px 95px;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-weight: bolder;
+    font-size: medium;
+}
+.content1 section button:hover{
+    cursor: pointer;
+   
+}
+.content2{
+    height: 100vh;
+    background-image: linear-gradient( to right, #000 40%, transparent 58% ), url(https://m.media-amazon.com/images/G/31/AmazonVideo/2021/X-site/MLP/TVOD/TVOD_MLP_Right.jpg);
+    background-position: right top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #000;
+}
+.content2 section{
+    padding-top: 40px;
+    padding-left: 40px;
+}
+.content2 section:first-child{
+    color: white;
+    font-size:40px;
+
+ 
+}
+.content2 section :nth-child(2){
+    color: white;
+    font-size:20px;
+    padding-top: 30px;
+}
+
+.content3{
+    height: 80vh;
+    display: flex;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+.content31{
+    width: 50%;
+}
+.content32 table tr td img{
+    width: 151px;
+    height: 104px;
+}
+.content31 p:first-child{
+    font-size:55px;
+    
+}
+.content31 p:last-child{
+    margin-top: 20px;
+    font-size:30px;
+}
+
+.content4{
+    height: 100vh;
+    background-image: linear-gradient( to left, #000 40%, transparent 58% ), url(https://images-na.ssl-images-amazon.com/images/G/01/digital/video/Magellan_MLP/MLP_Template_Image_Left.jpg);
+    background-position:;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #000;
+    color: white;
+}
+.content41{
+    width: 50%;
+    margin-left: auto;
+
+}
+.content41 h1{
+    padding-top: 30px;
+    margin-bottom: 30px;
+    font-size: 45px;
+    
+}
+.content41 p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+
+.content5{
+    background-color: #222;
+    padding: 24px;
+    color: #0F79AF;
+}
+.content5 ul{
+    margin-left: 30%;
+}
+.content5 ul li a{
+    text-decoration: none;
+ 
+}
+.content5 ul li a:link,.content5 ul li a:visited,.content5 ul li a:active{
+    color: #0F79AF;
+}
+.content5 p{
+    color: #aaa;
+    margin-left: 35%;
+    margin-top: 10px;
+    
+}
+.content5 img{
+    display: block;
+    margin: auto;
+}
